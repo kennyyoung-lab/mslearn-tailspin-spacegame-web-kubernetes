@@ -42,7 +42,7 @@ stages:
       artifact: manifests
 
 - stage: 'Deploy'
-  displayName: 'Deploy the containers'
+  displayName: 'Deploy the container'
   dependsOn: Build
   jobs:
   - deployment: Deploy
